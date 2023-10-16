@@ -1,0 +1,144 @@
+*{margin: 0px;}
+body{font-family: Titillium Web, sans-serif; font-size: 16px;}
+#sub-nav2-box{
+    height: 35px; width: 100%; position: relative;
+    background-color: #f9fbfb;
+}
+#sub-nav2-box .text{
+    color: #6a6f72; display: inline; 
+    /* font-size: 16px; */
+    /* padding-left: 0%; */
+}
+
+#sub-nav1{
+    background-color: white;
+    height: 110px;
+}
+
+.sub-nav3-links a{
+    padding: 2.4%; text-decoration: none; color:#999;
+}
+.sub-nav3-links a:hover{
+    background-color: #1dafed; color: white;
+}
+
+#main-container{
+    width: 88%; display:flex; margin-left: 5%; 
+    /* transition-property: transition-timing-function 2s;
+    transition-timing-function: ease-in; */
+}
+.container{
+    /* border: 1px solid black; */
+    width: 40%; padding: 2%;
+    margin-top: 6%; margin-bottom: 4%;
+}
+.container h3{
+    font-weight: normal; 
+}
+.container p~a{
+    color: white;background-color: #e5353e;
+    text-decoration: none;
+    padding: 5%;
+}
+.SUBi{
+    width: 100%;
+}
+.content{
+    margin-left: 35%; line-height: 20px;
+}
+
+.link{
+    display: block; margin-top: -80px; margin-left: 35%;
+    
+}
+#act{
+    height: 600px; width: 100%;
+    /* border: 1px solid black; */
+    background-color: #e5f0fe;
+    background-image: url(../images/vyasa-activities.jpg);
+    background-size: 100%;
+    top: 0; left: 0;
+    background-repeat: no-repeat;
+}
+#act h4{
+    padding: 3%;
+    margin-left: 45%;
+}
+#act h1{
+    margin-left: 48%;
+    margin-bottom: 2%;
+    margin-top: -2%;
+}
+#about{
+    padding: 6%; 
+    /* border: 1px solid black;  */
+    background-image: url('https://img.freepik.com/premium-vector/dreamy-gradient-wallpaper-with-mandala-pattern-vector-background-yoga-meditation-poster_317038-294.jpg');
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 99.9% 100%;
+    padding-left: 10%; padding-right: 8%;
+}
+#about h5{
+    text-align: center;
+    color: #606060;
+    font-size: 18px;
+    font-weight: normal;
+}
+#about>p, b{
+    text-align: center;
+    font-size: 50px;
+}
+.about-content-box{
+    /* border: 1px solid black;  */
+    width: 25%; height: 30%;
+    box-sizing: border-box; padding: 2%; margin-right: 5%; 
+    /* font-family: Titillium Web, sans-serif; color: #1dafed; */
+}
+.about-sub-points{
+    display: inline;
+}
+.date-box{
+    background-color: #e5353e; 
+    padding: 2%; width: 15%; 
+    color: white; line-height: 25px; 
+    text-align: center;
+}
+.date-box-c1{
+    color: #1dafed;margin-top: -25%; margin-left: 22%; width: 50%;
+}
+.date-box-c2{
+    margin-left: 22%; width: 50%;
+}
+div>#founder{
+    font-family: Brawler;
+    font-size: x-large;
+    text-align: center; 
+    margin-top: -60%; 
+    opacity: 0;
+}
+div>#founder:hover{
+    opacity: 1;
+}
+#founder+img{
+    opacity: 0;
+}
+#foot-links>a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+#cpr>a{
+    color: white;
+    padding: 21px;
+    text-decoration: none;
+}
+#cpr>span{
+    margin-left: 36%;
+}
+#social{
+    margin-top: -18%; margin-left: 80%;
+}
+#social>a{
+    padding: 2%;
+}
